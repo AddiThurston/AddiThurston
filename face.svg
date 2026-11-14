@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 756 864" width="756" height="864">
 <style>text{font:10px ui-monospace,Menlo,Consolas,monospace;white-space:pre;fill:#24292f}
-@media (prefers-color-scheme:dark){text{fill:#e6edf3}}</style>
+@media (prefers-color-scheme:dark){text{fill:#e6edf3}}g{transform-box:view-box;transform-origin:center;animation:spin 6s ease-in-out infinite alternate}
+@keyframes spin{from{transform:scaleX(1)}to{transform:scaleX(-1)}}
+@media (prefers-reduced-motion:reduce){g{animation:none}}
+</style>
+<g>
 <text x="0" y="10" textLength="408" lengthAdjust="spacingAndGlyphs">                                                           xxx+++++x</text>
 <text x="0" y="22" textLength="498" lengthAdjust="spacingAndGlyphs">                                                      xxx++;;::::::::+x;;++++++xxXX</text>
 <text x="0" y="34" textLength="516" lengthAdjust="spacingAndGlyphs">                                                   xx+;;;;;:::::...........::::;;;;+XX</text>
@@ -73,4 +77,5 @@
 <text x="0" y="838" textLength="756" lengthAdjust="spacingAndGlyphs">...............................................................:X&amp;&amp;&amp;&amp;&amp;$$$$X$$;...........;+...................................</text>
 <text x="0" y="850" textLength="756" lengthAdjust="spacingAndGlyphs">................................................................:&amp;&amp;$$&amp;$$$$$X$;...........:x...................................</text>
 <text x="0" y="862" textLength="756" lengthAdjust="spacingAndGlyphs">.................................................................x&amp;&amp;$$$$$$$X$:............:...................................</text>
+</g>
 </svg>
